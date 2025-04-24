@@ -10,13 +10,12 @@ Ever felt like you just *know* you’re going to hate the next song on your play
 - **Untapped Potential:** While everyone’s busy predicting hits and viral content, we’re flipping the script to focus on the *not-so-popular*.
 
 ### Workflow of This Project
-1. **Data Collection:** Gather user interaction logs, content metadata, and explicit dislike events.
-2. **Feature Extraction:** Process audio/video/text features, user-profile embeddings, and contextual signals.
+1. **Data Collection:** Collected more than 1000 audio files of various genres.
+2. **Feature Extraction:**Extracted various features from the audio files using libraries like Librosa.
 3. **Pipeline Setup:** Utilize Jupyter Notebooks (`Test Pipeline.ipynb`, `Train Pipeline.ipynb`) to orchestrate data preprocessing, model training, and evaluation.
 4. **Model Architecture:** Implement a multi-layer feedforward network (or CNN/RNN where appropriate) with dropout and batch normalization.
 5. **Training & Validation:** Split data into train/val/test sets, tune hyperparameters, and track metrics like accuracy, recall, and false-positive rate.
-6. **Prediction API:** Deploy the trained model behind a simple Flask API for real-time dislike predictions.
-7. **Dashboard (Optional):** Visualize predictions and feature importances with Plotly/Dash for model interpretability.
+6. **Testing:** Tested the above model on a randomly unseen audio file, which gives it a "skip" or "not skip" label.
 
 ### Future Work
 - **Incorporate Sequential Models:** Experiment with Transformer-based architectures to capture temporal patterns in user behavior.
