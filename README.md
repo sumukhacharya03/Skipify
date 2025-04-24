@@ -11,7 +11,7 @@ Ever felt like you just *know* you’re going to hate the next song on your play
 
 ### Workflow of This Project
 1. **Data Collection:** Collected more than 1000 audio files of various genres.
-2. **Feature Extraction:**Extracted various features from the audio files using libraries like Librosa.
+2. **Feature Extraction:** Extracted various features from the audio files using libraries like Librosa.
 3. **Pipeline Setup:** Utilize Jupyter Notebooks (`Test Pipeline.ipynb`, `Train Pipeline.ipynb`) to orchestrate data preprocessing, model training, and evaluation.
 4. **Model Architecture:** Implement a multi-layer feedforward network (or CNN/RNN where appropriate) with dropout and batch normalization.
 5. **Training & Validation:** Split data into train/val/test sets, tune hyperparameters, and track metrics like accuracy, recall, and false-positive rate.
